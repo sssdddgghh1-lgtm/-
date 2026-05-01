@@ -5,7 +5,7 @@ from telegram.error import Forbidden, BadRequest, TelegramError
 
 # --- الإعدادات الأساسية ---
 # تم سحب التوكن تلقائياً من ترمكس
-BOT_TOKEN = "8295665183:AAHERIriMQMc_x8Mz-_x5I8Ef87JB8Wnvyo" 
+BOT_TOKEN = os.getenv("BOT_TOKEN") 
 ADMIN_ID = 7983340250 
 DB_NAME = "auto_publisher.db"
 
